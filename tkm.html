@@ -5,9 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tkm</title>
   <link rel="stylesheet" href="stylesheet.css">
+
+  <style>
+    /* Estilos específicos para esta página */
+    #gif-container {
+      display: flex;
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center;    /* Centra verticalmente */
+      height: 80vh;           /* Contenedor ocupa el 80% del alto de la ventana */
+      padding: 10px;          /* Espacio interno opcional */
+      box-sizing: border-box; /* Asegura que el padding no desborde */
+    }
+
+    img {
+      width: 100%;          /* Se adapta al ancho del contenedor */
+      height: auto;         /* Mantiene la proporción del GIF */
+      max-width: 600px;     /* Tamaño máximo en ancho */
+      border-radius: 10px;  /* Bordes ligeramente redondeados */
+    }
+  </style>
 </head>
 <body>
-  <h1>Tkmmmmmm my love</h1>
+  <h1>Tkmmmmmm my love, eres mi corazón <3</h1>
+  <div id="gif-container">
+    <img src="assets/nosotros.gif">
+  </div>
   <button onclick="location.href='index.html'" class="btn">Volver:3 </button>
 </body>
 </html>
