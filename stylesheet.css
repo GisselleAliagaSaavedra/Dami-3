@@ -12,7 +12,7 @@ body {
   }
   
   /* Botones */
-  .btnTKM, .btnYume {
+  .btnTKM, .btnYume, .btnKumito {
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
